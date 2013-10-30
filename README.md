@@ -9,6 +9,7 @@ Technically how this works, is it just pops up a flag that you can check against
 
 
 Set up is similar to this, added to the main game update
+````javascript
 if( window.ejecta ){
 			// check for ejecta and if was in background 
 			var status = new Ejecta.AppStatus();
@@ -30,6 +31,6 @@ if(this.pauseGame){
 
 // to reset the game flag in the app
 status.resetGameStatusFlag();
-
+````
 
 
